@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+@import "scss/my-custom-bootstrap";  // Les custom scss doivent précéder le scss de bootstrap
+
+
+
+@import "~bootstrap/scss/bootstrap";
+
+$fa-font-path: "~font-awesome/fonts";  // Cette vairiable est nécessaire pour le sccs de Font awesome
+@import "~font-awesome/scss/font-awesome";
